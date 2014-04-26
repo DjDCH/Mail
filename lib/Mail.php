@@ -24,7 +24,7 @@ class Mail {
         // Create a message
         $message = \Swift_Message::newInstance()
             ->setFrom($this->from)
-            ->setTo($this->$to)
+            ->setTo($this->to)
             ->setSubject($this->subject)
             ->setBody($this->body, 'text/html')
             ->setMaxLineLength(128)
