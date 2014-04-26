@@ -1,0 +1,18 @@
+# Vendor directory
+vendor
+
+# Composer
+composer.phar
+
+# WebStorm/PhpStorm
+/*.iml
+/*.ipr
+/*.iws
+/.idea/
+
+# Vim
+.*.sw[a-p]
+
+# OS related files
+.DS_Store
+desktop.ini
