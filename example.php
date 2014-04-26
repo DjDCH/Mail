@@ -1,6 +1,8 @@
 <?php
 
-require_once __DIR__ . '/lib/mail_required.php';
+require_once __DIR__ . '/vendor/autoload.php';
+
+use DjDCH\Mail;
 
 // Create mail
 $mail = new Mail();

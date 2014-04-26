@@ -9,6 +9,3 @@ function _println($string)
 {
     echo $string . "\n";
 }
-
-require_once __DIR__ . '/../vendor/autoload.php';
-require_once __DIR__ . '/Mail.php';
