@@ -1,0 +1,20 @@
+{
+    "name": "DjDCH/mail",
+    "type": "library",
+    "description": "Simple php mail library.",
+    "keywords": ["mail","mailer"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "DjDCH",
+            "email": "coding@djdch.com",
+            "homepage": "http://djdch.com/"
+        }
+    ],
+    "require": {
+        "swiftmailer/swiftmailer": "@stable"
+    },
+    "autoload": {
+        "files": ["lib/mail_required.php"]
+    }
+}
