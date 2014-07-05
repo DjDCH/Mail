@@ -13,5 +13,5 @@ Install with Composer
 
 Install the dependencies with Composer:
 
-    composer require DjDCH/Mail @stable
+    composer require djdch/mail dev-master
 

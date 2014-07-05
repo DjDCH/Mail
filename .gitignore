@@ -3,6 +3,7 @@ vendor
 
 # Composer
 composer.phar
+composer.lock
 
 # WebStorm/PhpStorm
 /*.iml

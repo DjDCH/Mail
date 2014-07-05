@@ -1,5 +1,5 @@
 {
-    "name": "DjDCH/mail",
+    "name": "djdch/mail",
     "type": "library",
     "description": "Simple php mail library.",
     "keywords": ["mail","mailer"],
