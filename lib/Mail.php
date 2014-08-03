@@ -4,7 +4,8 @@ namespace DjDCH;
 
 require_once __DIR__ . '/mail_required.php';
 
-class Mail {
+class Mail
+{
     // Message vars
     public $from;
     public $to;
