@@ -2,8 +2,6 @@
 
 namespace DjDCH;
 
-require_once __DIR__ . '/mail_required.php';
-
 class Mail {
     // Message vars
     public $from;
@@ -43,6 +41,11 @@ class Mail {
         $result = $mailer->send($message);
 
         // Print result
-        _println($result . ' MTA accepted the message for delivery.');
+        $this->println($result . ' MTA accepted the message for delivery.');
+    }
+
+    protected function println($string)
+    {
+        echo $string . PHP_EOL;
     }
 }
