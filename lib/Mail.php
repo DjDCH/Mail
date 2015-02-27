@@ -42,6 +42,9 @@ class Mail {
 
         // Print result
         $this->println($result . ' MTA accepted the message for delivery.');
+
+        // Return result
+        return $result;
     }
 
     protected function println($string)
