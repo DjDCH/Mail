@@ -10,7 +10,7 @@ before_install:
     - composer self-update --no-interaction
 
 install:
-    - composer install --no-interaction --prefer-source --dev
+    - composer install --no-interaction --prefer-source
     - gem install mailcatcher
 
 before_script:
